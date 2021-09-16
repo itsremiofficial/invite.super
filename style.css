@@ -1,0 +1,152 @@
+
+body {
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #262731;
+    background-image: url("https://media.discordapp.net/attachments/863727121313824818/883866889787428916/Discord_Background_copy.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%, 100%; 
+    position: absolute;
+    left: 15%;
+    text-align:left;
+    margin-right:-50%;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-bottom: -20.5%;
+    align-self: left;
+    text-align: left;
+    -webkit-animation: animate-stripes 5s linear infinite;
+    animation: animate-stripes 5s linear infinite;
+    opacity: 0.75;
+}
+
+#gg {
+    -webkit-appearance: none;
+    appearance: none;
+    align-self: left;
+    text-align: left;
+    color: #e2e1e1;
+    -webkit-animation: animate-stripes 5s linear infinite;
+    animation: animate-stripes 5s linear infinite;
+}
+
+.progress-bar {
+    background-color: #262731;
+    border-radius: 0px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25) inset;
+    width: 350px;
+    height: 50px;
+    position: relative;
+    display: block;
+}
+
+h2 {
+    text-align:left; 
+    color: #f1f1f1;
+	font-size: 30px;
+    margin-left: 15%;
+}
+
+
+h3 {
+    position: fixed;
+    text-align:left;
+    top: 47%;
+    left: 26.5%;
+    color: #f1f1f1;
+    font-size: 24px;
+}
+
+progress[value]::-webkit-progress-value::before {
+    content: '80%';
+    position: absolute;
+    right: 0;
+    top: -125%;
+    border-radius: 50px;
+}
+
+progress[value]::-webkit-progress-value::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    border-radius: 100%;;
+    top: 7px;
+    background-color: #262731;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 500px;
+    height: 35px;
+    border-radius: 0px;
+    color: #A60311;
+}
+
+progress[value]::-moz-progress-bar {
+    background-image: -moz-linear-gradient(135deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -moz-linear-gradient(left, #061940, #A60311);
+    border-radius: 0px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #1D1E28;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)), -webkit-linear-gradient(left, #061940, #A60311);
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+
+
+.dot-spin {
+  position: fixed;
+  width: 11px;
+  height: 11px;
+  margin-top: 10px;
+  left: 27%;
+  border-radius: 6px;
+  background-color: transparent;
+  color: transparent;
+  box-shadow: 0 -18px 0 0 #ffffff, 12.72984px -12.72984px 0 0 #ffffff, 18px 0 0 0 #ffffff, 12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0), 0 18px 0 0 rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 rgba(152, 128, 255, 0), -18px 0 0 0 rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 rgba(152, 128, 255, 0);
+  animation: dotSpin 1.5s infinite linear;
+}
+
+@keyframes dotSpin {
+  0%,
+  100% {
+    box-shadow: 0 -18px 0 0 #ffffff, 12.72984px -12.72984px 0 0 #ffffff, 18px 0 0 0 #ffffff, 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  12.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 0 #ffffff, 18px 0 0 0 #ffffff, 12.72984px 12.72984px 0 0 #ffffff, 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  25% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 0 #ffffff, 12.72984px 12.72984px 0 0 #ffffff, 0 18px 0 0 #ffffff, -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  37.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 0 #ffffff, 0 18px 0 0 #ffffff, -12.72984px 12.72984px 0 0 #ffffff, -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  50% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 0 #ffffff, -12.72984px 12.72984px 0 0 #ffffff, -18px 0 0 0 #ffffff, -12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0);
+  }
+  62.5% {
+    box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0), 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 0 #ffffff, -18px 0 0 0 #ffffff, -12.72984px -12.72984px 0 0 #ffffff;
+  }
+  75% {
+    box-shadow: 0 -18px 0 0 #ffffff, 12.72984px -12.72984px 0 -5px rgba(152, 128, 255, 0), 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 0 #ffffff, -12.72984px -12.72984px 0 0 #ffffff;
+  }
+  87.5% {
+    box-shadow: 0 -18px 0 0 #ffffff, 12.72984px -12.72984px 0 0 #ffffff, 18px 0 0 -5px rgba(152, 128, 255, 0), 12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), 0 18px 0 -5px rgba(152, 128, 255, 0), -12.72984px 12.72984px 0 -5px rgba(152, 128, 255, 0), -18px 0 0 -5px rgba(152, 128, 255, 0), -12.72984px -12.72984px 0 0 #ffffff;
+  }
+}
+
+
+
