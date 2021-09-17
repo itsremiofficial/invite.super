@@ -1,57 +1,227 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<!-- CONFIGURATION -->
-        <link rel="stylesheet" href="style.css">
-		<link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/863727121313824818/883518164598681600/PNG.png" />
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-		
-		<!-- DISCORD EMBED -->
-		<meta name="og:site_name" content="Revival Gears Official">
-		<meta property="og:title" content="👉 Join RG Official Now!">
-        <meta name="theme-color" content="#2f3136"/>
-		<meta property="og:description" content="
-		This is Official Discord Server Of Revival Gears Official Which Is The Perfect Place For Gamers, Creators, Artists And Everyone Else!
 
-		➺⠀Special Gaming Zone For Gamers
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
 
-		➺⠀Gaming Tournaments and Scrims!
-		
-		➺⠀Giveaways - Nitro and more!
-		
-		➺⠀Premium Music And Other Bots
-		">
-		<meta property="og:image" content="https://media.discordapp.net/attachments/863727121313824818/883779658657718292/PNG.png">
-		<meta property="og:url" content="http://support.remify.tech/">
-		<!-- TITLE -->
-	    <title>Redirecting...</title>
-		
-		<!-- SCRIPT TO REDIRECT -->
-		<script>
-			//THE WEBSITE TO REDIRECT TO
-            l="https://discord.gg/Nzycq8ZyRM"; 
-            //REST OF THE SOURCE `DO NOT TOUCH!
-			window.onload=function(){};var progval=0,myVar=setInterval(Prog,15);function Prog(){progval++,document.getElementById("gg").innerHTML=progval+"%",document.getElementById("g").value=progval,/*CODED BY: milrato.eu | Tomato#6966*/100==progval&&(clearInterval(myVar),setTimeout(Check,100))}function Check(){if(100==progval){clearInterval(myVar);setTimeout(null,500),location.search.substring(1).split("&")[0].split("=");"undefined"==l?window.location="https://discord.gg/Nzycq8ZyRM":window.location=l}}
-        </script>
-		<!-- OTHER META-TAGS -->
-		<meta name="keywords" content="Discord, Remify, Free Bots, Free Discord Bots, Discord Bots, Bots, DC, Discord Bots, Hosting, Free Hosting, Free Bot Host, Free Bots"/>
-		<meta name="copyright"content="RG Official">
-		<meta name="language" content="EN">
-		<meta name="revised" content="Sunday, September 30th, 2021, 1:25 pm" />
-		<meta name="Classification" content="Gaming">
-		<meta name="author" content="RG Official">
-		<meta name="designer" content="RG Official">
-		<meta name="reply-to" content="itsremiofficial@yahoo.com">
-		<meta name="owner" content="RG Official">
-    </head>
-	<!-- REST OF THE HTML CODE-->
-    <body> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      <h2>Welcome to RG Official! ❤</h2>
-      <br/>
-      <div style="zoom: 2.5;"><div class="dot-spin"></div></div>
-      <h3 id="gg">0%</h3> 
-      <br/> <br/>
-      <progress id="g" class="y" value="0" max="100" ></progress> 
-    </body>
+<body style="background-color: #1D1E28">
+    <style>
+        progress[value]::-webkit-progress-value::before {
+            content: '80%';
+            position: absolute;
+            right: 0;
+            top: -125%;
+        }
+        
+        progress[value]::-webkit-progress-value::after {
+            content: '';
+            width: 6px;
+            height: 6px;
+            position: absolute;
+            border-radius: 100%;
+            right: 7px;
+            top: 7px;
+            background-color: #1D1E28;
+        }
+        
+        progress {
+            -webkit-appearance: none;
+            appearance: none;
+            align-self: center;
+            text-align: center;
+            -webkit-animation: animate-stripes 5s linear infinite;
+            animation: animate-stripes 5s linear infinite;
+        }
+        
+        #gg {
+            -webkit-appearance: none;
+            appearance: none;
+            font-family: 'Josefin Sans', sans-serif;
+            align-self: center;
+            text-align: center;
+            color: #c0c0c0;
+            -webkit-animation: animate-stripes 5s linear infinite;
+            animation: animate-stripes 5s linear infinite;
+        }
+        
+        progress[value] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            / border: none;
+            width: 250px;
+            height: 20px;
+            color: blue;
+        }
+        
+        progress[value]::-moz-progress-bar {
+            background-image: -moz-linear-gradient( 135deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -moz-linear-gradient( top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -moz-linear-gradient( left, #A60311, #A60311);
+            border-radius: 0px;
+            background-size: 35px 20px, 100% 100%, 100% 100%;
+        }
+        
+        progress[value]::-webkit-progress-value {
+            background-color: #1D1E28;
+            border-radius: 0px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+            background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)), -webkit-linear-gradient(left, #A60311, #A60311);
+            background-size: 35px 20px, 100% 100%, 100% 100%;
+        }
+        
+        @-webkit-keyframes animate-stripes {
+            100% {
+                background-position: -100px 0px;
+            }
+        }
+        
+        @keyframes animate-stripes {
+            100% {
+                background-position: -100px 0px;
+            }
+        }
+        
+        .progress-bar {
+            background-color: #1D1E28;
+            border-radius: 5px;
+            box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25) inset;
+            width: 250px;
+            height: 20px;
+            position: relative;
+            display: block;
+        }
+        
+        .progress-bar>span {
+            background-color: blue;
+            border-radius: 2px;
+            display: block;
+            text-indent: -9999px;
+        }
+        
+        @media screen and (min-width: 480px) {
+            .mainframe {
+                padding-left: 150px;
+                padding-top: 40px;
+                padding-right: 225px;
+            }
+            .textframe {
+                padding-left: 10px;
+                padding-top: 20px;
+                padding-right: 15px;
+            }
+            .container {
+                border: none;
+                padding-left: 10px
+            }
+        }
+        
+        @media screen and (min-width: 1366px) {
+            .imgcontainer {
+                text-align: center;
+                margin: 24px 0 12px 0;
+                position: center;
+                height: 400px;
+                width: 500px;
+                overflow: hidden;
+                border: thick;
+                border: solid;
+            }
+            .imgcontainer img {
+                height: 300px;
+                width: 500px;
+                -webkit-transition: all 5s ease;
+                -moz-transition: all 5s ease;
+                -ms-transition: all 5s ease;
+                transition: all 5s ease;
+            }
+            .imgcontainer img:hover {
+                width: 900px;
+                height: 700px;
+            }
+            h3 {
+                color: rgba(255, 255, 255, 0.685);
+                text-align: center;
+            }
+            h5 {
+                color: rgba(255, 255, 255, 0.685);
+                text-align: justify;
+            }
+            .mainframe {
+                padding-left: 350px;
+                padding-top: 40px;
+                padding-right: 425px;
+            }
+            .textframe {
+                padding-left: 20px;
+                padding-top: 20px;
+                padding-right: 25px;
+            }
+            .container {}
+        }
+    </style>
+    <br/>
+    <br/>
+    <br/>
+    <div class="mainframe">
+        <div class="container" style="text-align:center;">
+            <br/> <br/><br/> <br/>
+            <div class="textframe">
+                <h2 id="h" style="text-align:center; font-family: 'Josefin Sans', sans-serif; color: #c0c0c0">Thanks for inviting remify! ❤</h2>
+                <script>
+                    if (Math.random() >= 0.5) {
+                        document.getElementById("h").innerHTML = "Thanks for inviting remify! ❤";
+                    } else if (Math.random() <= 0.5) {
+                        document.getElementById("h").innerHTML = "Thanks for inviting remify! ❤";
+                    }
+                </script>
+                <h3 id="gg">0%</h3>
+                <br/> <br/>
+                <progress id="g" class="y" value="0" max="100" style="align-self:center; text-align:center;">
+                    <div class="progress-bar"> 
+                        <span style="width: 80%;">Progress: 80%</span> 
+                    </div>
+                </progress>
+            </div>
+            <br/>
+            <br/> <br/> <br/> </div>
+    </div>
+    <script>
+        window.onload = function() {};
+        var progval = 0;
+        var myVar = setInterval(Prog, 10);
+
+        function Prog() {
+            progval++;
+            document.getElementById("gg").innerHTML = progval + "%";
+            document.getElementById("g").value = progval;
+
+            if (progval == 100) {
+                clearInterval(myVar);
+                setTimeout(Check, 100);
+            }
+        }
+
+        function Check() {
+            if (progval == 100) {
+                clearInterval(myVar);
+                var ftimeout = setTimeout(null, 500);
+                var parameters = location.search.substring(1).split("&");
+                var temp = parameters[0].split("=");
+                l = "https://discord.com/api/oauth2/authorize?client_id=857765257799794758&permissions=8&scope=bot";
+                if (l == "undefined") {
+                    window.location = "https://docs.remify.tech";
+                } else {
+                    window.location = l;
+                }
+            } else {
+
+            }
+        }
+    </script>
+    <div id="footerBar" style="display:none;font: 20px Verdana,Verdana,Verdana; overflow: hidden; background:#1D1E28; padding: 3px 5px;">
+        <span style="float:right"> 
+        </span>
+    </div>
+</body>
+
 </html>
-
